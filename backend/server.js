@@ -2,7 +2,6 @@ import express from 'express';
 import cors from 'cors';
 import { connectDB } from './config/db.js';
 import foodRouter from './routes/foodRoute.js';
-
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -33,7 +32,6 @@ app.get('/', (req, res) => {
 
 app.listen(port, () => {
   console.log(`Server started on http://localhost:${port}`);
-  console.log("Static path:", path.join(__dirname, 'uploads'));
 });
 
 
