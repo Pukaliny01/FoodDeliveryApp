@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Add.css'
 import { assets } from '../../assets/assets'
 import axios from 'axios'
+import { toast } from 'react-toastify'
 
 const Add = () => {
 
@@ -37,6 +38,7 @@ const Add = () => {
                 price: ""
             })
             setImage(false);
+            toast.success(response.data.message);
         }
         else{
 
