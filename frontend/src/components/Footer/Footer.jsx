@@ -7,8 +7,8 @@ const Footer = () => {
     <div className='footer' id='footer'>
         <div className="footer-content">
             <div className="footer-content-left">
-                <img src={assets.logo} alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <img className="logo" src={assets.logo_foot} alt="" />
+                <p>Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevate your dining experience — one delicious meal at a time.
                 </p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
@@ -29,12 +29,12 @@ const Footer = () => {
                 <h2>GET IN TOUCH</h2>
                 <ul>
                     <li>+1-212-456-7890</li>
-                    <li>contact@tomato.com</li>
+                    <li>contact@flavorspot.com</li>
                 </ul>
             </div>
         </div>
         <hr />
-        <p className="footer-copyright">Copyright 2024 © Tomato.com - All Rights Reserved.</p>
+        <p className="footer-copyright">Copyright 2024 © FlavorSpot.com - All Rights Reserved.</p>
     </div>
   )
 }
